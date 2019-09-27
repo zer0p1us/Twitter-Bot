@@ -36,10 +36,10 @@ class twitter_bot:
         time.sleep(3)
 
 
-    def like_tweet(self, hastag):
+    def like_tweet(self, search):
         bot = self.bot
         #use keyword to search
-        bot.get('https://twitter.com/search?q=' + hastag + '&src=typd')
+        bot.get('https://twitter.com/search?q=' + search + '&src=typd')
         bot.implicitly_wait(3)
         #get posts
         for i in range(0, 30):

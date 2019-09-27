@@ -47,7 +47,8 @@ class twitter_bot:
 if __name__ == '__main__':
     username = input('Email: ')
     password = getpass.getpass('Password: ')
+    search = input('Please enter keyword: ')
     user = twitter_bot(username, password)
     user.login()
     time.sleep(10)
-    user.like_tweet('dev')
+    user.like_tweet(search)

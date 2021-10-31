@@ -1,5 +1,7 @@
 # Twitter-Bot
 
+🟥**This project is no longer maintained and depricated** 
+
 ## Description:
 It is a simple bot for Twitter, currently it just likes posts in the hope that they will follow back.
 I intend to add more feartures to it, just for the fun of it.
